@@ -1,6 +1,6 @@
 import React from "react";
 import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
+import mock08 from '../assets/images/image.png';
 import mock09 from '../assets/images/Trailer.mp4';
 import mock10 from '../assets/images/cubesat.png';
 import '../assets/styles/Project.scss';
@@ -13,7 +13,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/DavidGilson24/CubeSat-Subsystem" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/DavidGilson24/CubeSat-Subsystem" target="_blank" rel="noreferrer"><h2>CubeSat Telemetry Subsystem</h2></a>
-                <p>Designed and built a Telemetry subsystem using an Arduino R3 and computes data such as Temperature, Humidity, Pressure, UTC time for scheduling, Earth’s magnetic field and frequency and amplitude of vibrations (Full Report on GitHub</p>
+                <p>Designed and built a Telemetry subsystem using an Arduino R3 and computes data such as Temperature, Humidity, Pressure, UTC time for scheduling, Earth’s magnetic field and frequency and amplitude of vibrations (Full Report on GitHub). Developed on Arduino IDE (very similar to C++ with exceptions on compilation and running)</p>
             </div>
             <div className="project">
                 <div>
@@ -25,17 +25,17 @@ function Project() {
                 <div>
                     <h2>Solar Atlas</h2>
                 </div>
-                <p>Built a 3D model of the solar system on a 1:10 scale (time and space), simulating the orbit of the planets, by modeling with Blender and building it with Unreal Engine 5.</p>
+                <p>Built a 3D model of the solar system on a 1:10 scale (time and space, so for example Saturn would need around 2.95 years to complete a full orbit in the simulator), simulating the orbit of the planets, by modeling with Blender and building it with Unreal Engine 5. Could possibly develop into a full scale project to be released as a free learning tool for all.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://davidgilson24.github.io/Space-Index/" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://davidgilson24.github.io/Space-Index/" target="_blank" rel="noreferrer"><h2>Space Index</h2></a>
+                <p> Space Index is a website I developed, that acts as an e-learning platform, to learn about our solar system, as well as some important man made-objects that were dpeloyed and sent to space (and some still active to this day). It's built using vanilla web dev tools such as HTML5, CSS3 and JavaScript</p>
             </div>
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Quasar</h2></a>
+                <p> Quasar is an astronomy essay generator. It's a simple and straightforward generator that uses OpenAI's API and the GPT 3.5 model data to get accurate information, and generate proper essays (NB: If you want to implement it, you do need your own OpenAI API key as I do not provide it for obvious security reasons). Made on python.</p>
             </div>
         </div>
     </div>
