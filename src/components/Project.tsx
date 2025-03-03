@@ -1,7 +1,7 @@
 import React from "react";
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/image.png';
-import mock09 from '../assets/images/Trailer.mp4';
+import YouTube from 'react-youtube';
 import mock10 from '../assets/images/cubesat.png';
 import '../assets/styles/Project.scss';
 
@@ -17,13 +17,10 @@ function Project() {
             </div>
             <div className="project">
                 <div>
-                    <video className="zoom" width="100%" controls>
-                    <source src={mock09} type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <YouTube videoId="OswJ_Defd0s"/>
                 </div>
                 <div>
-                    <h2>Solar Atlas</h2>
+                <a href="https://www.youtube.com/watch?v=OswJ_Defd0s" target="_blank" rel="noreferrer"><h2>Solar Atlas</h2></a>
                 </div>
                 <p>Built a 3D model of the solar system on a 1:10 scale (time and space, so for example Saturn would need around 2.95 years to complete a full orbit in the simulator), simulating the orbit of the planets, by modeling with Blender and building it with Unreal Engine 5. Could possibly develop into a full scale project to be released as a free learning tool for all.</p>
             </div>
